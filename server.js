@@ -18,7 +18,7 @@ app.use("/api/contact", contactRoutes);
 
 // Home route for testing
 app.get("/", (req, res) => {
-  res.send(contactRoutes);
+  res.send("Welcome to the Taskit API!");
 });
 
 // Start the server
